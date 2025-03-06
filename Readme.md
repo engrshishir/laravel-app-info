@@ -1,6 +1,6 @@
 # Laravel App Info
 
-A simple Laravel package to display your application information such as version, environment, and more.
+This package is useful for developers who need quick insights.
 
 ## Installation
 
