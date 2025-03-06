@@ -1,0 +1,39 @@
+{
+    "name": "engrshishir/app-info",
+    "description": "A simple package to retrieve app information such as name, version, and environment.",
+    "keywords": [
+        "app-info",
+        "laravel",
+        "app_info",
+        "app_details",
+        "app_overview"
+    ],
+    "homepage": "https://github.com/engrshishir/laravel-app-info",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EngrShishir\\AppInfo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shishir Bhuiya",
+            "email": "shishir.cse.pstu@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EngrShishir\\AppInfo\\AppInfoServiceProvider"
+            ],
+            "aliases": {
+                "AppInfo": "EngrShishir\\AppInfo\\Facades\\AppInfo"
+            }
+        }
+    }
+}
